@@ -1,0 +1,14 @@
+# Created by https://www.toptal.com/developers/gitignore/api/nuxtjs,vue,vuejs
+# Edit at https://www.toptal.com/developers/gitignore?templates=nuxtjs,vue,vuejs
+
+### Nuxtjs ###
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+node_modules/
+dist/
+
+# End of https://www.toptal.com/developers/gitignore/api/nuxtjs,vue,vuejs
