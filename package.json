@@ -5,13 +5,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "lint": "eslint --ext \".js,.ts,.vue\"  --ignore-path .gitignore ."
+    "lint:js": "eslint --ext \".js,.ts,.vue\"  --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
     "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-vue": "^9.4.0",
     "nuxt": "3.0.0-rc.8",

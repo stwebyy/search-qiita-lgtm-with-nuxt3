@@ -1,0 +1,14 @@
+# dotenv environment variables file
+.env
+
+# nuxt.js build output
+.nuxt
+
+# Nuxt generate
+dist
+
+# IDE / Editor
+.idea
+
+# macOS
+.DS_Store
