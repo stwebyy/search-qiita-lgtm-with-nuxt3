@@ -7,7 +7,7 @@
     "preview": "nuxt preview",
     "lint:js": "eslint --ext \".js,.ts,.vue\"  --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
-    "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
+    "lint:fix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
