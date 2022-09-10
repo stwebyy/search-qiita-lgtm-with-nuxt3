@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <NuxtWelcome />
-    <v-btn class="ma-5" color="primary">my-btn</v-btn>
-  </div>
+  <v-app>
+    <NuxtLayout :name="layout">
+      <NuxtPage />
+    </NuxtLayout>
+  </v-app>
 </template>
+
+<script setup lang="ts">
+const layout = 'base';
+</script>
